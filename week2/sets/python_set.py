@@ -10,3 +10,12 @@ values True and 1 are considered same in set Likewise False and O are considered
 
 set() constructor can be used to make a set
 '''
+thisset = {"apple", "banana", "cherry","apple"}
+print(thisset) #duplicate values are ignored
+
+thisset1 = {"apple", "banana", "cherry", True,1,2}
+print(thisset1) #treats True and 1 as same
+
+print(len(thisset1)) #length of set
+thisset3 = set(("mango", "strawberry", "cherry"))
+print(thisset3) #set can be made using set() constructor
